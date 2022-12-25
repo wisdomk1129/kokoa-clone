@@ -1,0 +1,22 @@
+.header2 {
+    font-size: var(--font-size-h2);
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.header2 span {
+    margin: 0px auto;
+    font-size: var(--font-size-h1);
+    text-align: center;
+}
+
+.header2 * {
+    width: 33%;
+}
+
+.header2__icon {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+}

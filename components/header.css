@@ -1,0 +1,16 @@
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: var(--font-size-h1);
+}
+
+.header-text__icon i {
+    font-size: var(--font-size-h2);
+    margin-left: 10px;
+}
+
+.header-text__icon .fa-cog:hover {
+    animation: cog_ani 1s linear infinite;
+}

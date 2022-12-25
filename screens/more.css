@@ -1,0 +1,58 @@
+.user-info__name__phone {
+    font-size: var(--font-size-h3);
+    color: var(--sub-color);
+    margin-top: 6px;
+}
+
+.user-info__name__phone i {
+    font-size: 16px;
+    color: violet;
+}
+
+.more-menu {
+    border: none;
+    font-size: var(--font-size-h3);
+}
+
+.talk-drive-new {
+    position: absolute;
+    right: 28px;
+    top: -40px;
+}
+
+.more-menu-2 {
+    padding: 0px 0px 40px 0px;
+    justify-content: flex-start;
+}
+
+.suggestions {
+    margin: 20px;
+    font-size: var(--font-size-h3);
+    color: var(--sub-color);
+}
+
+.suggestions__title {
+    display: block;
+    margin-bottom: 18px;
+    color: var(--main-color);
+}
+
+.suggestions__img {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.suggestions__img__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.suggestions__img__column img {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    margin: 4px;
+}

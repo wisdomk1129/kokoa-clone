@@ -1,0 +1,10 @@
+.badge {
+    display: block;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    font-size: var(--font-size-h4);
+    color: white;
+    background-color: var(--noti-color);
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.status-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 8px;
+}
+
+.status-bar__text {
+    font-size: var(--font-size-h2);
+}
+
+.status-bar-column {
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.status-bar__text:first-child {
+    margin-right: 8px;
+}
+
+.status-bar__text:nth-child(2) {
+    justify-content: center;
+}
+
+.status-bar__bettery {
+    justify-content: flex-end;
+}
+
+.status-bar__bettery i:nth-child(n-1) {
+    margin-left: 4px;
+}
+
+.fa-lock {
+    margin-right: 8px;
+}

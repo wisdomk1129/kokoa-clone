@@ -1,0 +1,16 @@
+.new {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--noti-color);
+}
+
+.cog-new {
+    position: relative;
+}
+
+.cog-new__icon {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+}

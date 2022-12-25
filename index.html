@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MilkTalk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="screen">
+        <div class="status-bar">
+            <div class="status-bar__wifi status-bar-column">
+                <span class="status-bar__text">No Service</span>
+                <i class="fas fa-wifi fa"></i>
+            </div>
+            <span class="status-bar__text status-bar-column">10:22</span>
+            <div class="status-bar__bettery status-bar-column">
+                <i class="fas fa-lock fa-sm"></i>
+                <span class="status-bar__text">80%</span>
+                <i class="fas fa-battery-three-quarters fa-lg"></i>
+                <i class="fas fa-bolt fa-sm"></i>
+            </div>
+        </div>
+        <div class="welcome-text">
+            <span class="welcome-text__milktalk">Welcome to MilkTalk</span>
+            <span class="welcome-text__login">If you have a Milk Account, </br> log in with your email or phone
+                number.</span>
+        </div>
+        <form action="friends.html" method="get" class="login-form">
+            <input class="login-form__text login-form-font" type="text" placeholder="Email or phone number" />
+            <input class="login-form__text login-form-font" type="text" placeholder="Password" />
+            <input class="login-form__btn login-form-font" type="submit" value="Log In" />
+            <input class="login-form__btn login-form-font" type="submit" value="Sign Up" />
+            <a class="login-form__link login-form-font" href="friends.html">Find Milk Account or Password</a>
+        </form>
+    </div>
+    <div class="notice">Plese make your screen smaller :(</div>
+    <script src="https://kit.fontawesome.com/64f52c6bb9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+:root {
+    --main-color: #10396B;
+    --sub-color: #0E80B7;
+    --back-color: #D7D7D7;
+    --noti-color: #FF6229;
+    --rgba-sub: 14, 128, 183, 0.5;
+    --rgba-sub2: 14, 128, 183, 0.1;
+    --bold: 700;
+    --regular: 400;
+    --font-size-h1: 30px;
+    --font-size-h2: 20px;
+    --font-size-h3: 18px;
+    --font-size-h4: 15px;
+    --img-size-lg: 80px;
+    --img-size-m: 70px;
+    --img-size-sm: 60px;
+    --border: 2px solid var(--sub-color);
+}

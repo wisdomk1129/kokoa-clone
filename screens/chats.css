@@ -1,0 +1,13 @@
+.user-info__name__badge {
+    padding: 1px;
+    margin: 4px 0px 0px 28px;
+}
+
+.user-info-chats {
+    transition: all 0.5s ease-in-out;
+}
+
+.user-info-chats:hover {
+    background-color: var(--main-color);
+    color: var(--back-color);
+}
