@@ -27,19 +27,19 @@
 }
 
 .nav-list:first-child {
-    animation-delay: 0.5s;
+    animation-delay: 0.1s;
 }
 
 .nav-list:nth-child(2) {
-    animation-delay: 0.6s;
+    animation-delay: 0.2s;
 }
 
 .nav-list:nth-child(3) {
-    animation-delay: 0.7s;
+    animation-delay: 0.3s;
 }
 
 .nav-list:last-child {
-    animation-delay: 0.8s;
+    animation-delay: 0.4s;
 }
 
 
